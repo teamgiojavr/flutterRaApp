@@ -20,7 +20,7 @@ CAPTURAS DE LA APLICACIÓN:
 ![Screenshot_1636237885](https://user-images.githubusercontent.com/93413280/140625612-7cd35e03-c15b-4795-94e7-5b2e5a3b6712.png)
 
 
-![Screenshot_1636237956](https://user-images.githubusercontent.com/93413280/140625622-db16862f-4475-428b-8745-506c9b262f68.png)
+![Screenshot_1636237956 | altura = 100px](https://user-images.githubusercontent.com/93413280/140625622-db16862f-4475-428b-8745-506c9b262f68.png)
 
 
 ![Screenshot_1636237897](https://user-images.githubusercontent.com/93413280/140625628-9791cdac-d8a0-48cb-bff2-97d5dccf1352.png)
