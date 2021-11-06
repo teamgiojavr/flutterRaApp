@@ -1,4 +1,7 @@
+import 'package:festodemoapp/button_login.dart';
+import 'package:festodemoapp/button_register.dart';
 import 'package:flutter/material.dart';
+
 
 class FormularioLogin extends StatelessWidget {
 
@@ -50,7 +53,9 @@ class FormularioLogin extends StatelessWidget {
     child: ListView(
       children: [
         inputEmail,
-        inputPassword
+        inputPassword,
+        ButtonLogin(),
+        ButtonRegister()
       ],
     ),
   );

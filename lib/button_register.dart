@@ -1,19 +1,27 @@
 import 'package:flutter/material.dart';
 import 'main.dart';
 
+//Boton creado para el formulario de login:
+//No se utilizaron botones de flutter y hice uno custom para agregar los colores
+
 class ButtonRegister extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return InkWell(
+    return Container(
+     width: 200,
+     padding: EdgeInsets.only(
+      top: 5.0,
+      left: 20.0,
+      right: 20.0,
+     ), 
+     child: InkWell(
       onTap: () {
-        Navigator.push(
-          context, 
-          MaterialPageRoute(builder: (context) => GenerarGabinente())
-        );
+        
       },
       child: Container(
-        margin: EdgeInsets.only(top: 490.0, left: 20.0, right: 20.0),
+        width: 200,
+        margin: EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
         height: 50.0,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30.0),
@@ -33,6 +41,7 @@ class ButtonRegister extends StatelessWidget {
               fontSize: 18.0, fontFamily: 'Lato', color: Colors.white),
         )),
       ),
+     )
     );
   }
 }

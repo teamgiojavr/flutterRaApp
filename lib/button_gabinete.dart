@@ -1,27 +1,23 @@
 import 'package:flutter/material.dart';
-import 'main.dart';
 
-//Boton creado para el formulario de login:
+//Boton creado para el formulario de proyectos de automatización:
 //No se utilizaron botones de flutter y hice uno custom para agregar los colores
 
-class ButtonLogin extends StatelessWidget {
+class ButtonGabinete extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Container(
-     padding: EdgeInsets.only(
-      top: 50.0,
+    padding: EdgeInsets.only(
+      top: 30.0,
       left: 20.0,
-      right: 20.0,      
-     ),
-     child: InkWell(
+      right: 20.0,
+      bottom: 30.0,
+    ),
+    child: InkWell(
       onTap: () {
-        Navigator.push(
-          context, 
-          MaterialPageRoute(builder: (context) => GenerarGabinente())
-        );
       },
       child: Container(
-        margin: EdgeInsets.only(top: 50.0, left: 20.0, right: 20.0),
+        margin: EdgeInsets.only(top: 20.0, left: 20.0, right: 20.0),
         height: 50.0,
         decoration: BoxDecoration(
             borderRadius: BorderRadius.circular(30.0),
@@ -36,12 +32,12 @@ class ButtonLogin extends StatelessWidget {
                 tileMode: TileMode.clamp)),
         child: Center(
             child: Text(
-          'Ingresar',
+          'Generar',
           style: TextStyle(
               fontSize: 18.0, fontFamily: 'Lato', color: Colors.white),
         )),
       ),
-     )
+      )
     );
   }
 }
